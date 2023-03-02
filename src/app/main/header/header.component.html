@@ -25,11 +25,11 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse container-fluid" id="navbarTogglerDemo02">
 
             <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page">Haqqında</a>
+              <li class="nav-item " >
+                <a class="nav-link router-link-active" aria-current="page">Haqqında</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" >Layihələr</a>
@@ -38,7 +38,17 @@
                 <a class="nav-link" >Xidmətlərimiz</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" >İmtahanlar</a>
+                <div class="dropdown nav-item">
+                    <button class="btn dropdown-toggle imtahanlar_dropdown nav-item nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     İmtahanlar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">MİQ/Sertifikasiya</a></li>
+                      <li><a class="dropdown-item" href="#">Abituriyent</a></li>
+                      <li><a class="dropdown-item" href="#">1-8 sinif</a></li>
+                      <li><a class="dropdown-item" href="#">Bilik yarışı</a></li>
+                    </ul>
+                  </div>                  
               </li>
               <li class="nav-item">
                 <a class="nav-link" >UniDil</a>

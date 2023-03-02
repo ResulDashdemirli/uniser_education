@@ -1,3 +1,17 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    zoom: 1;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
 .socials_top_group{
     height: 40px;
     width: 100%;
@@ -62,7 +76,10 @@ html{scroll-behavior:auto;
     margin-left: 45px;
 }
 #navbarTogglerDemo02{
-    margin-right: 50px;
+    margin-top: -2px;
+    margin-right: 220px;
+    height:0px;
+
 }
 .navbar-nav{
     width: 100%;
@@ -76,11 +93,6 @@ html{scroll-behavior:auto;
 #topheader .navbar-nav li.active > a {
     font-weight: bolder;
 }
-
-.nav-link{
-    font-size: 1.3vw;
-}
-
 .collapse :hover{
     color: black !important;
     transition: 0.3s;
@@ -89,8 +101,42 @@ html{scroll-behavior:auto;
 font-family: 'Averta';
 font-size: 16px;
 font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
+border-radius: 0% ;
+padding-top: 20%  ;
+width: 122px;
+height: 72px;
+text-align: center;
 }
+.imtahanlar_dropdown{
+    padding: 0px !important;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+}
+// .router-link-active{
+//     background: #F4E5D8;
+//     color: #F27209 !important;
+// }
+// .router-link-active:hover{
+//     color:#F27209 !important;
+// }
+@media only screen and (max-width: 700px) {
+    .navbar-collapse{
+        width: 100%;
+    }
+    .nav-link{
+        width:100%;
+        padding: 0px;
+        font-family: 'Averta';
+font-size: 16px;
+font-weight: 400;
+border-radius: 0% ;
+padding-top: 0%;
+padding-left: 0px;
+width:  100%;
+height: 25px;
+margin-top: 15px;
+text-align: center;
+    }
+  }
 //navbar ends
