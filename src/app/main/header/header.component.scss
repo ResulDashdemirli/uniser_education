@@ -1,0 +1,96 @@
+.socials_top_group{
+    height: 40px;
+    width: 100%;
+    background: #F27209;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.socials{
+    display:flex;
+    align-items: center;
+}
+.social_text{
+font-family: 'Averta';
+color: white;
+font-size: 16px;
+font-weight: 600;
+padding-top: 15px;
+padding-left: 50px;
+}
+.social_logo{
+padding-left:13px ;
+}
+.whatsapp_logo{
+    padding-left: 50px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.phone_logo{
+    width: 16.06px;
+    height: 16px;
+}
+.phone_text{
+    font-family: 'Averta';
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+//navbar starts
+
+html{scroll-behavior:auto;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.navbar{
+    width: 100% ;
+    margin: auto;
+    position: fixed !important;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+.navbar-collapse{
+    width: 60% !important;
+}
+.nav_uniseredu_logo{
+    margin-left: 45px;
+}
+#navbarTogglerDemo02{
+    margin-right: 50px;
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: space-between !important;
+}
+#topheader .navbar-nav li > a {
+	color: #333;
+	transition:.2s, color .2s;
+}
+
+#topheader .navbar-nav li.active > a {
+    font-weight: bolder;
+}
+
+.nav-link{
+    font-size: 1.3vw;
+}
+
+.collapse :hover{
+    color: black !important;
+    transition: 0.3s;
+}
+.nav-link{
+font-family: 'Averta';
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+//navbar ends
