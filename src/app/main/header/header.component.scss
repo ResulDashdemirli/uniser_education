@@ -1,17 +1,4 @@
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    zoom: 1;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  html, body {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
+
 .socials_top_group{
     height: 40px;
     width: 100%;
@@ -65,7 +52,6 @@ html{scroll-behavior:auto;
 .navbar{
     width: 100% ;
     margin: auto;
-    position: fixed !important;
     background: #FBFBFB;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
 }
@@ -113,13 +99,13 @@ text-align: center;
     margin-right: 25px;
     color: black;
 }
-// .router-link-active{
-//     background: #F4E5D8;
-//     color: #F27209 !important;
-// }
-// .router-link-active:hover{
-//     color:#F27209 !important;
-// }
+.active{
+    background: #F4E5D8;
+    color: #F27209 !important;
+}
+.active:hover{
+    color:#F27209 !important;
+}
 @media only screen and (max-width: 700px) {
     .navbar-collapse{
         width: 100%;
