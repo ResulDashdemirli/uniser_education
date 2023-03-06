@@ -34,28 +34,39 @@ font-weight: 700;
 display: flex;
 justify-content: center;
 }
-.pedagogical_staff{
+.pedagogical_staff ,.administrative_staff{
     display: flex;
     flex-direction: column;
+    box-shadow: (0px 4px 21px #EEF6F8);
 }
-.pedagogical_staff_text1{
+.pedagogical_staff_text1 ,.administrative_staff_text1{
 color: #000000;
 font-family: 'Inter';
 font-size: 16px;
 font-weight: 500;
 }
-.pedagogical_staff_text2{ 
-margin-top: -20px;
+.pedagogical_staff_text2 ,.administrative_staff_text2{
 font-family: 'Inter';
 font-size: 14px;
 font-weight: 100;
+}
+.pedagogical_staff_text2{
+    margin-top: -20px;
 }
 .pedagogical_staff_text3 {
 font-family: 'Inter';
 font-size: 14px;
 font-weight: 400;
 }
-
+.administrative_staff_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.administrative_staff_text2{
+    margin-top: -20px;
+}   
 
 
 
