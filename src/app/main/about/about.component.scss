@@ -1,0 +1,67 @@
+#about_img{
+    width: 100%;
+}
+.about_section1_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+#missiyamiz_text ,#vizyonumuz_text{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 700;
+}
+.about_section1_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.missiyamiz_img,.vizyonumuz_img{
+    padding-left: 24px;
+}
+.about_section1_right_text , .about_section1_left_text{
+    padding-left: 13px;
+}
+#orange_line{
+    display: flex;
+    justify-content: center;
+}
+#pedagogical_text , #administrative_text{
+padding-top: 7px;
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 700;
+display: flex;
+justify-content: center;
+}
+.pedagogical_staff{
+    display: flex;
+    flex-direction: column;
+}
+.pedagogical_staff_text1{
+color: #000000;
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+}
+.pedagogical_staff_text2{ 
+margin-top: -20px;
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 100;
+}
+.pedagogical_staff_text3 {
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+    .col-lg-3 img{
+        width: 200px;
+        height: 200px;
+    }
+}
