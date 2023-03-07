@@ -75,8 +75,8 @@ padding-left:13px ;
 	transition:.2s, color .2s;
 }
 
-#topheader .navbar-nav li.active > a {
-    font-weight: bolder;
+#topheader .navbar-nav li.active > a ,#topheader .navbar-nav li.active > a:hover {
+    color: #F27209 !important;
 }
 .collapse :hover{
     color: black !important;
