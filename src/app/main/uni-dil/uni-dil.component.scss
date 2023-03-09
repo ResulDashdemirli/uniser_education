@@ -1,0 +1,84 @@
+.uni-dil_section1_img{
+    width: 115%;
+    height: 70%;
+}
+.uni-dil_section1_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.uni-dil_section1_left_text1{
+font-family: 'Inter';
+font-size: 20px;
+color: #000000;
+font-weight: 700;
+}
+.login_input ,.password_input{
+border-radius: 20px;
+background: #F2F2F2;
+}
+.password_input{
+    margin-top: 20px;
+}
+.login_btn{
+margin-top: 20px;
+height: 40px;
+width: 272px;
+border-radius: 20px;
+color: white;
+background-color:#F27209;
+border: 1px solid #F27209;
+}
+.uni-dil_section1_img{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.31);
+}
+.uni-dil_section1_right_text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card{
+    border: none;
+    background: none;
+}
+.card-img-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.uni-dil-section2_text1{
+display: flex;
+justify-content: center;
+font-family: 'Inter' ;
+font-size: 20px;
+font-weight: 700;
+color: #000000;
+}
+.uni-dil-section2_text2{
+display: flex;
+justify-content: center;
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+
+}
+
+
+@media only screen and (max-width: 650px) {
+.card-title{
+    font-size:15px
+}
+
+.col-lg-8{
+    margin-top: 20px;
+}
+.uni-dil_section1_left{
+    margin-top: 15px;
+}
+
+}

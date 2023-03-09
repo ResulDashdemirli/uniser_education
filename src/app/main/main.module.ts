@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { MainComponent } from './main.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ServicesComponent } from './services/services.component';
+import { UniDilComponent } from './uni-dil/uni-dil.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,11 +20,14 @@ import { ProjectsComponent } from './projects/projects.component';
     HomeComponent,
     MainComponent,
     AboutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ServicesComponent,
+    UniDilComponent
   ],
   imports: [
   CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    FormsModule
   ]
 })
 export class MainModule { }
