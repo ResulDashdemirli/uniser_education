@@ -9,6 +9,8 @@ import { UniDilComponent } from './uni-dil/uni-dil.component';
 import { UniAppComponent } from './uni-app/uni-app.component';
 import { BlogComponent } from './blog/blog.component';
 import { Projects1Component } from './projects1/projects1.component';
+import { NewsComponent } from './news/news.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -19,7 +21,9 @@ const routes: Routes = [
   {path:'services',component:ServicesComponent},
   {path:'uni-dil',component:UniDilComponent},
   {path:'uni-app',component:UniAppComponent},
-  {path:'blog',component:BlogComponent}
+  {path:'blog',component:BlogComponent},
+  {path:'news',component:NewsComponent},
+  {path:'contact',component:ContactComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,31 @@
+.news_item {
+    display: flex;
+    flex-direction: column;
+    box-shadow: (0px 4px 21px #EEF6F8);
+}
+.news_text1{
+color: #000000;
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+}
+.news_text2{
+color: #000000;    
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 200;
+}
+.news_text2{
+    margin-top: -20px;
+}
+.news_text3 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #CD650F;
+}
+a{
+    text-decoration: none !important;
+}

@@ -1,1 +1,51 @@
-<p>contact works!</p>
+<app-header></app-header>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-lg-4 contact_left">
+        <img src="../../../assets/img/orange_line.png" alt="">
+        <br>
+        <p class="contact_left_text1">Əlaqə</p>
+        <form action="">
+            <div class="input login_input">
+                <input type="text" 
+                name="username"  
+                class="login_input form-control"
+                placeholder="Ad" 
+                [(ngModel)]="username" >
+            </div>
+            <div class="input">
+                <input type="email" 
+                name="Email" 
+                class="email_input form-control"
+                placeholder="Email" 
+                [(ngModel)]="email">
+            </div>
+            <div class="input">
+                <input type="number" 
+                name="telefon" 
+                class="phone_number_input form-control"
+                placeholder="Telefon" 
+                [(ngModel)]="phone_number">
+            </div>
+            <div class="input">
+                <input type="text" 
+                name="post" 
+                class="post_input form-control"
+                placeholder="İsmarıcınız - 2000 simvol" 
+                [(ngModel)]="post">
+            </div>
+
+            <div class="input">
+                <input class="login_btn" type="submit" value="Göndər">
+            </div>
+
+        </form>
+    </div>
+    <div class="col-lg-8 map_container">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1519.5759258188507!2d49.82437259066831!3d40.38332697311468!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2saz!4v1678635109607!5m2!1sen!2saz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+   
+</div>
+</div>
+<app-footer></app-footer>
