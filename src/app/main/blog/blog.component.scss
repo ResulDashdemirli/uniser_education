@@ -1,0 +1,35 @@
+.blog_container{
+    padding-top: 25px;
+}
+.card{
+    border: none;
+    background: none;
+}
+.card_img{
+    filter: brightness(70%);
+}
+.card-img-overlay{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.blog_text1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #FFFFFF;
+}
+.blog_text2{
+margin-top: -7px;
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 200;
+color: #FFFFFF;
+}
+.blog2{
+    padding-top: 10px;
+}
+.blog5{
+    padding-top: 10px;
+}

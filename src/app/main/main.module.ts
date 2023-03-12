@@ -11,6 +11,12 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ServicesComponent } from './services/services.component';
 import { UniDilComponent } from './uni-dil/uni-dil.component';
 import { FormsModule } from '@angular/forms';
+import { UniAppComponent } from './uni-app/uni-app.component';
+import { BlogComponent } from './blog/blog.component';
+import { Projects1Component } from './projects1/projects1.component';
+import { NewsComponent } from './news/news.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 
 @NgModule({
@@ -22,7 +28,12 @@ import { FormsModule } from '@angular/forms';
     AboutComponent,
     ProjectsComponent,
     ServicesComponent,
-    UniDilComponent
+    UniDilComponent,
+    UniAppComponent,
+    BlogComponent,
+    Projects1Component,
+    NewsComponent,
+    ContactComponent
   ],
   imports: [
   CommonModule,

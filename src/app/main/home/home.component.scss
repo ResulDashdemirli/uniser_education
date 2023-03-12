@@ -3,6 +3,9 @@
   .carousel-item{
     transition: transform 2s ease opacity .5s ease-out;
   }
+  .carousel_img{
+    filter: brightness(50%);
+  }
   .carousel_text1{
     margin-top: 10px;
     margin-right: 30px;

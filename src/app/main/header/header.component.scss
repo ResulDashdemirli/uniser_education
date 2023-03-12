@@ -55,7 +55,7 @@ padding-left:13px ;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
 }
 .navbar-collapse{
-    width:62% !important;
+    width:68% !important;
 }
 .nav_uniseredu_logo{
     margin-left: 45px;
@@ -94,8 +94,6 @@ text-align: center;
 }
 .imtahanlar_dropdown{
     padding: 0px !important;
-    margin-left: 25px;
-    margin-right: 25px;
     color: black;
 }
 .active{
@@ -105,7 +103,7 @@ text-align: center;
 .active:hover{
     color:#F27209 !important;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 990px) {
     .navbar-nav{
         background-color: white;
         width: 200px;
@@ -123,13 +121,15 @@ font-weight: 400;
 border-radius: 0% ;
 padding-top: 0%;
 padding-left: 0px;
-width:  100%;
 height: 25px;
 margin-top: 15px;
 text-align: center;
     }
     .imtahanlar_dropdown{
         padding-right: 24px !important;
+    }
+    .socials_top_group{
+        display: none;
     }
   }
 //navbar ends
