@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './main/about/about.component';
 import { BlogComponent } from './main/blog/blog.component';
 import { ContactComponent } from './main/contact/contact.component';
+import { HomeComponent } from './main/home/home.component';
 import { MainComponent } from './main/main.component';
 import { NewsComponent } from './main/news/news.component';
 import { ProjectsComponent } from './main/projects/projects.component';
@@ -17,10 +18,11 @@ const routes: Routes = [
   //   path: '', 
   //   loadChildren: () => import('./main/main.module').then(m => m.MainModule)
   // }
-  {path:'',redirectTo:'/about',pathMatch:'full'},
+  {path:'',redirectTo:'/home',pathMatch:'full'},
   {path:'', component:MainComponent,children:[
-    {path:'about',component:AboutComponent},
-    {path:'projects',component:ProjectsComponent},
+  {path:'home',component:HomeComponent},
+  {path:'about',component:AboutComponent},
+  {path:'projects',component:ProjectsComponent},
   {path:'projects1',component:Projects1Component},
   {path:'services',component:ServicesComponent},
   {path:'uni-dil',component:UniDilComponent},
