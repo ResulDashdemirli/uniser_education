@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './main/about/about.component';
 import { BlogComponent } from './main/blog/blog.component';
+import { Blog1Component } from './main/blog1/blog1.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { HomeComponent } from './main/home/home.component';
 import { MainComponent } from './main/main.component';
 import { NewsComponent } from './main/news/news.component';
+import { News1Component } from './main/news1/news1.component';
 import { ProjectsComponent } from './main/projects/projects.component';
 import { Projects1Component } from './main/projects1/projects1.component';
 import { ServicesComponent } from './main/services/services.component';
@@ -28,7 +30,9 @@ const routes: Routes = [
   {path:'uni-dil',component:UniDilComponent},
   {path:'uni-app',component:UniAppComponent},
   {path:'blog',component:BlogComponent},
+  {path:'blog1',component:Blog1Component},
   {path:'news',component:NewsComponent},
+  {path:'news1',component:News1Component},
   {path:'contact',component:ContactComponent}
   ]}
 

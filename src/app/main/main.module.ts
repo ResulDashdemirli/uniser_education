@@ -16,6 +16,8 @@ import { BlogComponent } from './blog/blog.component';
 import { Projects1Component } from './projects1/projects1.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
+import { Blog1Component } from './blog1/blog1.component';
+import { News1Component } from './news1/news1.component';
 
 
 
@@ -33,7 +35,9 @@ import { ContactComponent } from './contact/contact.component';
     BlogComponent,
     Projects1Component,
     NewsComponent,
-    ContactComponent
+    ContactComponent,
+    Blog1Component,
+    News1Component
   ],
   imports: [
   CommonModule,

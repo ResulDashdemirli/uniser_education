@@ -105,7 +105,7 @@ text-align: center;
 .active:hover{
     color:#F27209 !important;
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1090px) {
     .navbar-nav{
         background-color: white;
         transition: 0.2s;
@@ -121,16 +121,16 @@ padding: 0px;
 font-family: 'Averta';
 font-size: 16px;
 font-weight: 400;
-border-radius: 0% ;
-padding-top: 0%;
-padding-left: 0px;
 height: 25px;
 margin-top: 15px;
 text-align: center;
     }
-    .socials_top_group{
-        display: none;
-    }
+.socials_top_group{
+    display: none;
+}
+
+
+
   }
   @media only screen and (max-width: 690px) {
     
