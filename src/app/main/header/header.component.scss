@@ -35,7 +35,7 @@ padding-left:13px ;
     height: 16px;
 }
 .phone_text{
-    font-family: 'Averta';
+    font-family:'Averta';
     color: white;
     padding-left: 15px;
     padding-top: 15px;
@@ -49,6 +49,8 @@ padding-left:13px ;
     flex-grow: 0 !important;
 }
 .navbar{
+    
+    z-index: 99;
     width: 100% ;
     margin: auto;
     background: #FBFBFB;
@@ -106,7 +108,8 @@ text-align: center;
 @media only screen and (max-width: 990px) {
     .navbar-nav{
         background-color: white;
-        width: 200px;
+        transition: 0.2s;
+        width: 45pc;
     }
     .navbar-collapse{
         width: 100%;
@@ -132,4 +135,10 @@ text-align: center;
         display: none;
     }
   }
+  @media only screen and (max-width: 690px) {
+    
+    .navbar-nav{
+        width: 20pc;
+    }
+}
 //navbar ends
