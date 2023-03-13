@@ -3,7 +3,9 @@
     background: #191919;
 }
 
-
+.footer_row{
+  padding-left: 90px;
+}
 .footer_section1{
     display: flex;
     justify-content: center;
@@ -129,9 +131,9 @@ font-weight: 800;
     }
 
 .contact_info{
-font-weight: 500;
+font-family: 'Averta';
 font-size: 16px;
-line-height: 20px;
+font-weight: 400;
 color: white;
 }
 .contact_class{
@@ -142,7 +144,7 @@ color: white;
     
 }
 #phone_logo {
-margin-top: 5px;
+margin-top: 3px;
 height: 16px;
 width: 16.061893463134766px;
 }
@@ -155,8 +157,18 @@ margin-top: 5px;
 height: 18px;
 width: 13.5px;
 }
+.footer_text1{
+font-family: 'Averta';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #AFAFAF;
+}
 .contact_text{
-    margin-left: 10px;
+  margin-left: 10px;
+  font-family: 'Averta';
+  font-size: 14px;
+  font-weight: 400;
 }
 .follow_us_logos{
     display: flex;
@@ -216,5 +228,8 @@ padding-left:13px ;
 @media only screen and (max-width: 700px) {
   .socials_top_group{
     display: none;
+  }
+  .footer_row{
+    padding-left: 0px;
   }
 }
