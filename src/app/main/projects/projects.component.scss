@@ -36,11 +36,20 @@ a{
 .projects_all{
     display: flex;
 }
+.projects_img1{
+    margin-top: -1px;
+}
 
 
 @media only screen and (max-width: 1030px) {
    .projects , .projects1{
     padding-top: 20px;
    }
+   .projects_img1{
+    margin-top: -2px;
+}
+.projects_last{
+    padding-top: 30px;
+}
 
 }

@@ -80,5 +80,14 @@ font-weight: 400;
 .uni-dil_section1_left{
     margin-top: 15px;
 }
+}
 
+@media only screen and (max-width: 1030px) {
+    .uni-dil_section1_img{
+        width: 106%;
+        height: 70%;
+    }
+    .uni-dil-section2_text2{
+        width: 90%;
+    }
 }

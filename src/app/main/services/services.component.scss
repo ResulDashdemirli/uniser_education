@@ -1,5 +1,5 @@
 .services_section1_right img{
-    width: 115%;
+    width: 115.5%;
 }
 .services_section1_left{
     display: flex;
@@ -61,5 +61,12 @@ color: white;
 font-family: 'Inter';
 font-size: 16px;
 font-weight: 400;
-
+}
+.services_section2_second_row{
+    padding-top: 35px;
+}
+@media only screen and (max-width:1030px) {
+    .services_section1_right img{
+        width: 106.5%;
+    }
 }

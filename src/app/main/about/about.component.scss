@@ -7,7 +7,7 @@
     align-items: center;
 }
 #missiyamiz_text ,#vizyonumuz_text{
-    font-family: 'Inter';
+font-family: 'Inter';
 font-size: 16px;
 font-weight: 700;
 }
@@ -84,10 +84,30 @@ font-weight: 400;
         justify-content: center;
         align-items: center;
     }
+    .pedagogical_staff_last ,.administrative_staff_last{
+        padding-top: 30px;
+    }
     .about_section1_right{
         padding-top: 35px;
     }
+    .about_section1_left , .about_section1_right{
+        width: 70%;
+    }
+    .missiyamiz_img,.vizyonumuz_img{
+        padding-left: 30px;
+    }
+    .about_section1_left_text , .about_section1_right_text{
+        padding-left: 50px;
+    }
 }
 @media only screen and (max-width: 700) {
-    
+    .about_section1_left , .about_section1_right{
+        width: 100%;
+    }
+    .missiyamiz_img,.vizyonumuz_img{
+        padding-left: 0px;
+    }
+    .about_section1_left_text , .about_section1_right_text{
+        padding-left: 0px;
+    }
 }
