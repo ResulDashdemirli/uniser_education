@@ -109,6 +109,9 @@ text-align: center;
 .active:hover{
     color:#F27209 !important;
 }
+.nav_collapse_socials{
+    display: none;
+}
 @media only screen and (max-width:990px) {
     .navbar-nav{
         width: 45pc;
@@ -149,6 +152,43 @@ text-align: center;
     
     .navbar-nav{
         width: 20pc;
+    }
+    .dropdown-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav_collapse_socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav_collapse_socials_all{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_collapse_phone_number{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #phone_black{
+        width: 16.06px;
+        height: 18px;
+    }
+    #phone_black_text{
+        margin-left: 15px;
+        margin-top: 15px;
+        font-family: 'Averta';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #252525;
     }
 
 }
