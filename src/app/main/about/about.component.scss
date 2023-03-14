@@ -73,16 +73,21 @@ font-weight: 400;
 
 
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1030px) {
+.pedagogical_staff_all{
+        display: flex;
+        // justify-content: center;
+    }
+    .about_section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .about_section1_right{
         padding-top: 35px;
     }
-    .pedagogical_staff{
-        width: 220px;
-        height: 373px;
-    }
-    .administrative_staff{
-
-        height: 381px;
-    }
+}
+@media only screen and (max-width: 700) {
+    
 }

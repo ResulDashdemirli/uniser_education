@@ -109,11 +109,16 @@ text-align: center;
 .active:hover{
     color:#F27209 !important;
 }
+@media only screen and (max-width:990px) {
+    .navbar-nav{
+        width: 45pc;
+    }
+}
 @media only screen and (max-width: 1090px) {
     .navbar-nav{
         background-color: white;
         transition: 0.2s;
-        width: 45pc;
+        width: 60pc;
     }
     .navbar-collapse{
         width: 100%;

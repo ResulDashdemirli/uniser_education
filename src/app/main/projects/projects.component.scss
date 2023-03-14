@@ -33,9 +33,14 @@ a{
     align-items: center;
     width: 305px;
 }
+.projects_all{
+    display: flex;
+}
 
 
-@media only screen and (max-width: 650px) {
-   
+@media only screen and (max-width: 1030px) {
+   .projects , .projects1{
+    padding-top: 20px;
+   }
 
 }
