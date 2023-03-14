@@ -4,12 +4,15 @@
 .about_section1_left{
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;
 }
 #missiyamiz_text ,#vizyonumuz_text{
     font-family: 'Inter';
 font-size: 16px;
 font-weight: 700;
+}
+.about_section1_left , .about_section1_right{
+    box-shadow: 0px 4px 21px 0px #F8F2EE;
 }
 .about_section1_right{
     display: flex;
@@ -70,9 +73,16 @@ font-weight: 400;
 
 
 
-@media only screen and (max-width: 990px) {
-    .col-lg-3 img{
-        width: 250px;
-        height: 250px;
+@media only screen and (max-width: 1025px) {
+    .about_section1_right{
+        padding-top: 35px;
+    }
+    .pedagogical_staff{
+        width: 220px;
+        height: 373px;
+    }
+    .administrative_staff{
+
+        height: 381px;
     }
 }

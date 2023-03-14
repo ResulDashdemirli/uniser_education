@@ -64,6 +64,30 @@
   }
   .carousel_text3{
     font-size:17px;
+    margin-right: 35px;
   }
+  .carousel-caption {
+    text-align: center !important;
+    height: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important ;
+    align-items: center;
+  }
+
 }
-//carousel css ends
+ @media only screen and (max-width: 550px) {
+
+
+     .carousel_text1{
+    font-size: 14px;
+  }
+  .carousel_text2{
+    width: 200px;
+    font-size: 16px;
+  }
+  .carousel_text3{
+    font-size:14px;
+  }
+
+ }
